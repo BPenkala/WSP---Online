@@ -17,7 +17,7 @@ html {
 }
 
 #header {
-	background: white;
+	background: #fff;
 	border: solid 1px #000;
 	border-radius: 8px;
 	margin: 1% 0 1% 0;
@@ -29,19 +29,13 @@ html {
 	width: 75%;
 }
 
-#content-container {
-	width: 100%;
+#overview, #intent, #comp_analysis, #targ_audience {
+	background: #fff;
 	border: solid 1px #000;
-	background: white;
 	border-radius: 8px;
+	padding: 1% 0 3% 3%;
 }
 
-#content {
-	clear: left;
-	float: left;
-	width: 95%;
-	padding: 3%;
-}
 
 footer
 {
