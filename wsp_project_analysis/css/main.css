@@ -1,0 +1,55 @@
+html {
+	font-family: Open Sans, helvetica, sans-serif;
+	background: #f5f6f6;
+	background: -moz-linear-gradient(45deg,  #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 
+	80%, #f5f6f6 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#f5f6f6), 
+	color-stop(21%,#dbdce2), color-stop(49%,#b8bac6), color-stop(80%,#dddfe3), 	
+	color-stop(100%,#f5f6f6));
+	background: -webkit-linear-gradient(45deg,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 
+	80%,#f5f6f6 100%);
+	background: -o-linear-gradient(45deg,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 
+	80%,#f5f6f6 100%);
+	background: -ms-linear-gradient(45deg,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 	
+	80%,#f5f6f6 100%);
+	background: linear-gradient(45deg,  #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 		
+	80%,#f5f6f6 100%);
+}
+
+#header {
+	background: white;
+	border: solid 1px #000;
+	border-radius: 8px;
+	margin: 1% 0 1% 0;
+	padding: 1% 0 3% 3%;
+}
+
+#container {
+	margin: 0 auto;
+	width: 75%;
+}
+
+#content-container {
+	width: 100%;
+	border: solid 1px #000;
+	background: white;
+	border-radius: 8px;
+}
+
+#content {
+	clear: left;
+	float: left;
+	width: 95%;
+	padding: 3%;
+}
+
+footer
+{
+	clear: both;
+	background: #000;
+	text-align: left;
+	color: #fff;
+	padding: 20px;
+	height: 1%;
+	border: solid 1px #000;
+}
