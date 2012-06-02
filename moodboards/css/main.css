@@ -1,0 +1,43 @@
+body, header{
+	margin: 0 auto;
+	width: 85%;
+	font-size: 1em;
+	font-family: arial, sans-serif;
+	letter-spacing: .1em;
+}
+header {
+	padding: 4%;
+	text-align: center;
+}
+#board_gallery {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 1%;
+	border: 1px solid #000;
+	border-radius: 7px;
+}
+#boards li {
+	list-style-type: none;
+}
+#boards li a {
+	display: block;
+	opacity: .8;
+	width: 43.5%;
+	margin: 2%;
+}
+#boards li img {
+	max-width: 100%;
+}
+#boards li a:hover {
+	opacity: 1;
+}
+footer {
+	border: 1px solid #000;
+	border-radius: 7px;
+	padding: 2%;
+	margin: 2% 0 2% 0;
+	letter-spacing: 0;
+	text-align: center;
+}
+
+	
