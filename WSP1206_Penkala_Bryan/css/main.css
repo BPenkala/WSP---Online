@@ -1,26 +1,105 @@
-/* 
-CSS Mini Reset
-http://www.vcarrer.com/2010/05/css-mini-reset.html
-CSSresetr.com
-*/
-html, body, div, form, fieldset, legend, label
-{
- margin: 0;
- padding: 0; 
+body {
+	margin: 0 auto;
+	max-width: 960px;
+	background: #fff;
 }
 
-table
-{
- border-collapse: collapse;
- border-spacing: 0;
+header {
+	padding: 2%;
 }
 
-th, td
-{
- text-align: left;
- vertical-align: top;
+nav {
+	border: 1px solid #000;
+	float: left;
+	width: 99.8%;
 }
 
-h1, h2, h3, h4, h5, h6, th, td, caption { font-weight:normal; }
+nav ul {
+	margin: 0;
+	padding: 0;
+}
 
-img { border: 0; }
+nav ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+nav li a {
+	display: block;
+	float: left;
+	padding: 1% 4.24%;
+	color: #000;
+	border-right: 1px solid #000;
+	text-decoration: none;
+}
+
+nav li a:hover { 
+	background: #c0c0c0; 
+	text-decoration: underline;
+}
+
+#wrapper {
+	float: left;
+	width: 99.8%;
+	border: 1px solid #000;
+}
+
+#main_content {
+	clear: left;
+	float: left;
+	width: 60%;
+	padding: 2%;
+	display: inline;
+}
+
+#main_content img {
+	max-width: 100%;
+	padding: 2% 0 0 0;
+}
+
+#events {
+	float: left;
+	width: 38%;
+	padding: 4%;
+	border: 1px solid #000;
+}
+
+#newsletter {
+	float: right;
+	width: 38%;
+	padding: 4%;
+	border: 1px solid #000;
+}
+
+aside {
+	font-size: .85em;
+	float: right;
+	width: 30%;
+	padding:  5% 2% 2% 2%;
+	display: inline;
+	background: #c0c0c0;
+}
+
+aside img {
+	max-width: 80%;
+	
+}
+
+#office_hours {
+	padding: 80% 2% 2% 0%;
+}
+
+#school_hours {
+	padding: 2% 2% 70% 0%;
+}
+
+footer {
+	clear: left;
+	border: 1px solid #000;
+	background: #c0c0c0;
+	color: #fff;
+	text-align: left;
+	padding: 2%;
+	border: 1px solid #000;
+}
+ 

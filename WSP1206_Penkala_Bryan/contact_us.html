@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Spring Lake Elementary School - Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+</head>
+<body>
+	<header>
+		<img id="seal" src="images/spring_lake_seal.jpg" alt="Spring Lake Seal"/>
+		<h1>Spring Lake Elementary School</h1>
+		<h2>Home of the Manatees</h2>
+		<div id="search1">
+			<input type="search" name="search" id="search"/>
+			<button type="button">Search</button> 
+		</div>
+	</header>
+	<nav>
+		<ul>
+			<li id="home_page"><a href="index.html">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Policies & Conduct</a></li>
+			<li><a href="#">Calendar</a></li>
+			<li><a href="#">Uniform & Supplies</a></li>
+			<li><a href="a href="contact_form.html">Contact Us</a></li>
+		</ul>
+	</nav>
+	<div id="wrapper">
+		<div id="main_content">
+		<form id="contact_form" method="post" action="#">
+		<h3>Have questions, comments, or suggestions?</h3>
+		<h3>Send us a message, we'd be happy to help!</h3>
+		<p>* Denotes required field</p>
+			<div>
+				<label for="firstname">First Name*</label>
+				<input type="text" name="firstname" id="firstname" tabindex="10" 
+				placeholder="Jane" autofocus required/>
+			</div>
+			<div>
+				<label for="lastname">Last Name*</label>
+				<input type="text" name="lastname" id="lastname" tabindex="20" 
+				placeholder="Doe" required/>
+			</div>
+			<div>
+				<label for="email">Email*</label>
+				<input type="email" name="email" id="email" tabindex="30" 
+				placeholder="email@address.com" required/>
+			</div>
+				<div>
+				<label for="phone">Phone Number (Enter without dashes)</label>
+				<input type="email" name="email" id="email" tabindex="40" 
+				placeholder="4075551234" />
+			</div>
+			<div>
+				<label for="method">Preferred Contact Method</label>
+			</div>
+			<div>
+				<select name="method" id="method">
+					<option>Email</option>
+					<option>Phone</option>
+				</select>
+			</div>
+			<div>
+				<label for="review">Message* (250 character limit)<br></label>
+				<textarea name="review" id="review" tabindex="70" cols="45" rows="10" 
+				placeholder="Enter your message here..."></textarea>
+			</div>
+			<input type="submit" name="submit" class="submit" tabindex="80" 
+			value="Send"/>
+		</form>
+		</section>
+		</div>
+		<aside>
+			<p><strong>Administration</strong></p>
+			<div id="principal">
+				<img id="agnosto" src="images/agnosto.png" alt="Principal Agnosto"/>
+				<p><strong>Mr. Alex Agosto, Principal</strong><br />(407)-746-1633<br 
+				/><a href="mailto:alex_agosto@scps.k12.fl.us"> 
+				alex_agosto@scps.k12.fl.us</a></p>
+			</div>
+			<div id="asst_principal">
+				<img id="lochrane" src="images/lochrane.png" alt="Asst. Principal Lochrane"/>
+				<p><strong>Ms. Kimberly Lochrane, Assistant Principal</strong><br 
+				/>(407)-746-1633<br 
+				/><a href="mailto:kimberly_lochrane@scps.k12.fl.us"> 
+				kimberly_lochrane@scps.k12.fl.us</a></p>
+			</div>
+			<div id="teacher_directory">
+				<p><h4>Teacher Directory</h4><br />Contact information for teachers at 
+				Spring Lake Elementary.</p>
+			</div>
+			<div id="staff_directory">
+				<p><h4>Staff Directory</h4><br />Contact information for Staff at 
+				Spring Lake Elementary.</p>
+			</div>
+			<div id="location">
+				<p><h4>School Location</h4><br />Directions and assistance on finding 
+				Spring Lake Elementary.</p>
+			</div>
+		<aside>
+	</div>
+		</footer>
+			© 2004 - 2012 Spring Lake Elementary School. All Rights Reserved
+		</footer>
+</body>
+</html>
