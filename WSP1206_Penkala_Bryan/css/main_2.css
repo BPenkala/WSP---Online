@@ -1,0 +1,137 @@
+header img {
+	float: left;
+	max-width: 15%;
+	padding: 0 0 1% 0;
+}
+
+header {
+	padding: 1%;
+	color: #003366;
+}
+
+h1 {
+	display: block;
+	font-family: 'Oleo Script', arial, sans-serif;
+}
+
+#search1 {
+	float: right;
+	clear: left;
+	padding: 1%;
+}
+
+body {
+	clear: both;
+	font-family: 'Questrial', arial, sans-serif;
+	margin: 0 auto;
+	max-width: 960px;
+	background-image: url('../images/bg.png');
+	background-repeat: repeat-x;
+}
+
+nav {
+	border: 1px solid #000;
+	float: left;
+	width: 99.8%;
+	overflow: hidden;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+nav li a {
+	display: block;
+	float: left;
+	padding: 1% 3.96655%;
+	color: #000;
+	border-right: 1px solid #000;
+	text-decoration: none;
+	background: #FFCC33;
+}
+
+nav li a:hover { 
+	background: #CC3333; 
+	text-decoration: underline;
+}
+
+#wrapper {
+	float: left;
+	width: 99.8%;
+	border: 1px solid #000;
+	background: #FFF;
+}
+
+#main_content {
+	clear: left;
+	float: left;
+	width: 60%;
+	padding: 0 2% 2% 2%;
+	display: inline;
+}
+
+aside {
+	font-size: .85em;
+	color: #FFF;
+	float: right;
+	width: 30%;
+	padding:  2% 2% 2% 2%;
+	display: inline;
+	background: #003366;
+}
+
+#agnosto, #lochrane {
+	max-width: 60%;
+}
+
+#principal a, #asst_principal a {
+	color: #FFF;
+}
+
+footer {
+	clear: left;
+	border: 1px solid #000;
+	background: #99CCFF;
+	color: #003366;
+	text-align: left;
+	padding: 2%;
+	border: 1px solid #000;
+	font-weight: bold;
+}
+ 
+ 
+/* --- Begin Form Styling --------------------*/
+#contact_form {
+	float: left;
+	width: 75%;
+	padding: 2.5% 2.5% 0 2.5%;
+}
+
+label {
+	display: block;
+	margin: 1.1em 0 0;
+}
+input:focus {
+	border: 1px solid #FF0000;
+}
+input[type="text"], input[type="email"] {
+	clear: both;
+	border: 1px solid #000;
+	width: 65%;	
+	height: 1.5em;
+}
+textarea {
+	width: 85%;
+	display: block;
+	margin-bottom: .25em;
+}
+select {
+	height: 2em;
+}
+/* --- End Form Styling --------------------*/

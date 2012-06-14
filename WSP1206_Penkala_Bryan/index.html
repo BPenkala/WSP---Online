@@ -4,20 +4,22 @@
 	<meta charset="utf-8"/>
 	<title>Spring Lake Elementary School - Home of the Manatees</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<header>
-		<img id="seal" src="images/spring_lake_seal.jpg" alt="Spring Lake Seal"/>
+		<img id="seal" src="images/spring_lake_seal.png" alt="Spring Lake Seal"/>
 		<h1>Spring Lake Elementary School</h1>
 		<h2>Home of the Manatees</h2>
-		<div id="search1">
+			<div id="search1">
 			<input type="search" name="search" id="search"/>
-			<button type="button">Search</button> 
-		</div>
+			<button type="button">Search</button>
+		</div> 
 	</header>
 	<nav>
 		<ul>
-			<li id="home_page"><a href="index.html">Home</a></li>
+			<li><a href="index.html">Home</a></li>
 			<li><a href="#">About</a></li>
 			<li><a href="#">Policies & Conduct</a></li>
 			<li><a href="#">Calendar</a></li>
@@ -27,33 +29,35 @@
 	</nav>
 	<div id="wrapper">
 		<div id="main_content">
-			<img id="cta" src="images/banner.jpg" alt="Spring Lake Banner"/>
-			<h2>"Committed to Excellence"</h2>
-			<p>
-				The Mission of Spring Lake Elementary School, working in partnership with 
-				its families and community, is to strive for excellence by providing a 
-				learning environment that will enable all students to achieve their 
-				Potential.  <a href="#">Learn more about the school's history.</a></p>
+			<div id="cta">
+				<img id="cta" src="images/banner.jpg" alt="Spring Lake Banner"/>
+				<p>The Mission of Spring Lake Elementary School, working in partnership with its families and community, is to strive for excellence by providing a learning environment that will enable all students to achieve their Potential.</p>
+				<a href="#">Learn more about the school's history.</a>
+			</div>
 			<div id="events">
-				<h2>Upcoming Events</h2>
-				<p>There are currently no upcoming events</p>
+				<h3>Upcoming Events</h3>
+				<div id="upcoming_cal">
+					<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;mode=AGENDA&amp;height=175&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=bpenkala.fullsail%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style=" border-width:0 " width="185" height="175" frameborder="0" scrolling="no"></iframe>
+				</div>
 				<p>View the school calendar for future events and activities!</p>
-				<button type="button">View Calendar</button> 
+				<div id="cal_button">
+					<button type="button">View Calendar</button> 
+				</div>
 			</div>
 			<div id="newsletter">
-				<h2>Newsletter</h2>
-				<form><p>Sign up to receive the Spring Lake Elementary Newsletter!</p>
+				<h3>Newsletter</h3>
+				<form id="news_signup"><p>Sign up to receive the Spring Lake Elementary Newsletter!</p>
 					<div>
 						<label for="firstname">First Name</label>
-						<input type="text" name="firstname" id="firstname" autofocus/>
+						<input type="text" name="firstname" id="firstname" placeholder="Jane" autofocus/>
 					</div>
 					<div>
 						<label for="lastname">Last Name</label>
-						<input type="text" name="lastname" id="lastname"/>
+						<input type="text" name="lastname" id="lastname" placeholder="Doe"/>
 					</div>
 					<div>
 						<label for="email">Email Address</label>
-						<input type="text" name="email" id="email"/>
+						<input type="email" name="email" id="email" placeholder="jdoe@email.com"/>
 					</div>
 					<div id="news_button">
 						<button type="button">Sign Up!</button>
@@ -62,22 +66,23 @@
 			</div>
 		</div>
 		<aside>
+			<h3>School Information</h3>
 			<div id="address">
 				<p><strong>Address</strong><br />695 Orange Avenue<br />Altamonte Springs, 
 				FL 32714<br />(407)-746-1650</p>
 			</div>
 			<div id="principal">
 				<p><strong>Mr. Alex Agosto, Principal</strong><br />(407)-746-1633<br 
-				/><a href="mailto:alex_agosto@scps.k12.fl.us"> 
+				/><a href="mailto:alex_agosto@scps.k12.fl.us">
 				alex_agosto@scps.k12.fl.us</a></p>
 			</div>
 			<div id="asst_principal">
 				<p><strong>Ms. Kimberly Lochrane, Assistant Principal</strong><br 
 				/>(407)-746-1633<br 
-				/><a href="mailto:kimberly_lochrane@scps.k12.fl.us"> 
+				/><a href="mailto:kimberly_lochrane@scps.k12.fl.us">
 				kimberly_lochrane@scps.k12.fl.us</a></p>
 			</div>
-			<img id="school_img" src="images/school.png" alt="Sky view of Spring Lake"/>
+			<img id="school_img" src="images/school.jpg" alt="Sky view of Spring Lake"/>
 			<div id="office_hours">
 				<p><strong>Office Hours</strong><br />Monday - Friday<br />7:30am - 
 				3:30pm</p>
