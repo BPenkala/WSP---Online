@@ -11,16 +11,18 @@ header {
 
 #header_left {
 	float: left;
-	width: 80%;
+	width: 65%;
 }
 
 h1 {
+	font-family: 'Oleo Script', arial, sans-serif;
 	padding: 3% 0 0 0;
 }
 
 #search1 {
 	float: right;
-	padding: 1%;
+	max-width: 30%;
+	padding: 9% 0 0 0;
 }
 
 body {
