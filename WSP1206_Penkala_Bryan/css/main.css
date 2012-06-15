@@ -1,6 +1,6 @@
 header img {
 	float: left;
-	max-width: 15%;
+	max-width: 25%;
 	padding: 0 0 1% 0;
 }
 
@@ -9,19 +9,22 @@ header {
 	color: #003366;
 }
 
+#header_left {
+	float: left;
+	width: 80%;
+}
+
 h1 {
-	display: block;
-	font-family: 'Oleo Script', arial, sans-serif;
+	padding: 3% 0 0 0;
 }
 
 #search1 {
 	float: right;
-	clear: left;
+	clear: both;
 	padding: 1%;
 }
 
 body {
-	clear: both;
 	font-family: 'Questrial', arial, sans-serif;
 	margin: 0 auto;
 	max-width: 960px;
