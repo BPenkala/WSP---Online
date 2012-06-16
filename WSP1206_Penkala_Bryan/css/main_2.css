@@ -1,7 +1,7 @@
 header img {
 	float: left;
-	max-width: 15%;
-	padding: 0 0 1% 0;
+	max-width: 20%;
+	padding: 6.5% 0 1% 0;
 }
 
 header {
@@ -9,24 +9,99 @@ header {
 	color: #003366;
 }
 
+#header_left {
+	float: left;
+	width: 60%;
+}
+
 h1 {
-	display: block;
 	font-family: 'Oleo Script', arial, sans-serif;
+	font-size: 1.85em;
+	font-weight: none;
+	padding: 5% 0 0 0;
+}
+
+h3 {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+h4 {
+	font-weight: bold;
+	font-size: 1.1em;
 }
 
 #search1 {
 	float: right;
-	clear: left;
-	padding: 1%;
+	max-width: 38%;
+	padding: 9% 0 0 0;
+}
+
+#search1 input {
+	width: 70%;
+	margin-top: 2%;
+}
+
+.button_style {
+	float: right;
+	background-color: #339933;
+	border-radius: 10px;
+	border: 2px solid #33cc33;
+	display: inline-block;
+	color: #FFF;
+	font-family: inherit;
+	font-size: .75em;
+	font-weight: bold;
+	padding: 3% .5%;
+	text-decoration: none;
+}
+.button_style: hover {
+	background-color:#339933;
+}
+
+.button_style: active {
+	position:relative;
+	top:1px;
+}
+
+.button_style2 {
+	background-color: #339933;
+	border-radius: 10px;
+	border: 2px solid #33cc33;
+	display: inline-block;
+	color: #FFF;
+	font-family: inherit;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-top: 3%;
+	padding: 3% 10%;
+	text-decoration: none;
+}
+.button_style2: hover {
+	background-color:#339933;
+	opacity: 50%;
+}
+
+.button_style2: active {
+	position:relative;
+	top:1px;
+}
+
+#search1 input[type="search"] {
+	height: 1.5em;
 }
 
 body {
-	clear: both;
 	font-family: 'Questrial', arial, sans-serif;
 	margin: 0 auto;
 	max-width: 960px;
-	background-image: url('../images/bg.png');
-	background-repeat: repeat-x;
+	background-image: linear-gradient(top, #FFFFFF 27%, #999966 71%);
+	background-image: -o-linear-gradient(top, #FFFFFF 27%, #999966 71%);
+	background-image: -moz-linear-gradient(top, #FFFFFF 27%, #999966 71%);
+	background-image: -webkit-linear-gradient(top, #FFFFFF 27%, #999966 71%);
+	background-image: -ms-linear-gradient(top, #FFFFFF 27%, #999966 71%);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop
+	(0.27, #FFFFFF),color-stop(0.71, #999966));
 }
 
 nav {
@@ -49,9 +124,8 @@ nav ul li {
 nav li a {
 	display: block;
 	float: left;
-	padding: 1% 3.96655%;
+	padding: 1% 4.004% 1% 4.002%;
 	color: #000;
-	border-right: 1px solid #000;
 	text-decoration: none;
 	background: #FFCC33;
 }
@@ -59,6 +133,7 @@ nav li a {
 nav li a:hover { 
 	background: #CC3333; 
 	text-decoration: underline;
+	color: #FFF;
 }
 
 #wrapper {
@@ -76,22 +151,44 @@ nav li a:hover {
 	display: inline;
 }
 
+#required_fields {
+	font-size: .75em;
+}
+
 aside {
 	font-size: .85em;
 	color: #FFF;
 	float: right;
 	width: 30%;
-	padding:  2% 2% 2% 2%;
+	padding:  1% 2% 2% 2%;
 	display: inline;
 	background: #003366;
 }
 
+
+aside p {
+	line-height: 1.5em;
+}
+
+aside a {
+	color: #FFF;
+}
+
 #agnosto, #lochrane {
-	max-width: 60%;
+	max-width: 50%;
 }
 
 #principal a, #asst_principal a {
 	color: #FFF;
+}
+
+#principal, #asst_principal {
+	padding: 3% 0 3% 0;	
+}
+
+#teacher_directory, #staff_directory, #location {
+	padding: 0 3% 0 0;
+	line-height: .85em;
 }
 
 footer {
@@ -110,7 +207,7 @@ footer {
 #contact_form {
 	float: left;
 	width: 75%;
-	padding: 2.5% 2.5% 0 2.5%;
+	padding: .75% 2.5% 0 2.5%;
 }
 
 label {
@@ -124,7 +221,7 @@ input[type="text"], input[type="email"] {
 	clear: both;
 	border: 1px solid #000;
 	width: 65%;	
-	height: 1.5em;
+	height: 1.75em;
 }
 textarea {
 	width: 85%;
@@ -133,5 +230,7 @@ textarea {
 }
 select {
 	height: 2em;
+	width: 50%;
+	margin-bottom: .75em;
 }
 /* --- End Form Styling --------------------*/

@@ -10,7 +10,7 @@
 	type='text/css'>
 </head>
 <body>
-	<header>
+	<header id="home">
 		<div id="header_left">
 			<img id="seal" src="images/spring_lake_seal.png" alt="Spring Lake Seal"/>
 			<h1>Spring Lake Elementary School</h1>
@@ -18,53 +18,60 @@
 		</div>
 		<div id="search1">
 			<input type="search" name="search" id="search"/>
-			<button type="button">Search</button>
+			<button type="button" class="button_style">Search</button>
 		</div> 
 	</header>
 	<nav>
 		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Policies & Conduct</a></li>
-			<li><a href="#">Calendar</a></li>
-			<li><a href="#">Uniform & Supplies</a></li>
-			<li><a href="contact_us.html">Contact Us</a></li>
+			<li id="home_nav"><a href="#home">Home</a></li>
+			<li id="about_nav"><a href="#">About</a></li>
+			<li id="policies_nav"><a href="#">Policies & Conduct</a></li>
+			<li id="cal_nav"><a href="calendar.html">Calendar</a></li>
+			<li id="uniform_nav"><a href="#">Uniform & Supplies</a></li>
+			<li id="contact_nav"><a href="contact_us.html">Contact Us</a></li>
 		</ul>
 	</nav>
 	<div id="wrapper">
 		<div id="main_content">
 			<div id="cta">
-				<img id="cta" src="images/banner.jpg" alt="Spring Lake Banner"/>
-				<p>The Mission of Spring Lake Elementary School, working in partnership with its families and community, is to strive for excellence by providing a learning environment that will enable all students to achieve their Potential.</p>
-				<a href="#">Learn more about the school's history.</a>
+				<img id="cta_img" src="images/banner.jpg" alt="Spring Lake Banner">
+				<p>The Mission of Spring Lake Elementary School, working in partnership 
+				with its families and community, is to strive for excellence by providing 
+				a learning environment that will enable all students to achieve their 
+				Potential.</p>
+				<a href="#">Learn more about the school's history</a>
 			</div>
 			<div id="events">
 				<h3>Upcoming Events</h3>
 				<div id="upcoming_cal">
-					<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;mode=AGENDA&amp;height=175&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=bpenkala.fullsail%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style=" border-width:0 " width="185" height="175" frameborder="0" scrolling="no"></iframe>
+					<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;mode=AGENDA&amp;height=175&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=bpenkala.fullsail%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FNew_York" style=" border-width:0 " width="210" height="175"></iframe>
 				</div>
 				<p>View the school calendar for future events and activities!</p>
 				<div id="cal_button">
-					<button type="button">View Calendar</button> 
+					<a href="calendar.html" class="button_style2">View Calendar</a>
 				</div>
 			</div>
 			<div id="newsletter">
 				<h3>Newsletter</h3>
-				<form id="news_signup"><p>Sign up to receive the Spring Lake Elementary Newsletter!</p>
+				<form id="news_signup"><p>Sign up to receive the Spring Lake Elementary 
+				Newsletter!</p>
 					<div>
 						<label for="firstname">First Name</label>
-						<input type="text" name="firstname" id="firstname" placeholder="Jane" autofocus/>
+						<input type="text" name="firstname" id="firstname" 
+						placeholder="Jane"/>
 					</div>
 					<div>
 						<label for="lastname">Last Name</label>
-						<input type="text" name="lastname" id="lastname" placeholder="Doe"/>
+						<input type="text" name="lastname" id="lastname" 
+						placeholder="Doe"/>
 					</div>
 					<div>
 						<label for="email">Email Address</label>
-						<input type="email" name="email" id="email" placeholder="jdoe@email.com"/>
+						<input type="email" name="email" id="email" 
+						placeholder="jdoe@email.com"/>
 					</div>
 					<div id="news_button">
-						<button type="button">Sign Up!</button>
+						<button type="button" class="button_style2">Sign Up!</button>
 					</div>
 				</form>
 			</div>
@@ -81,7 +88,7 @@
 				alex_agosto@scps.k12.fl.us</a></p>
 			</div>
 			<div id="asst_principal">
-				<p><strong>Ms. Kimberly Lochrane, Assistant Principal</strong><br 
+				<p><strong>Ms. Kimberly Lochrane, Asst. Principal</strong><br 
 				/>(407)-746-1633<br 
 				/><a href="mailto:kimberly_lochrane@scps.k12.fl.us">
 				kimberly_lochrane@scps.k12.fl.us</a></p>
